@@ -1,0 +1,29 @@
+ARRAY LIST
+	arraylist ia resizable array in java that is part of the java collectio framework
+	regular array,arraylist can grow or shink dynamically as elements are added or removed.
+
+METHODS
+
+	add(element):add anm element to  a list
+	get(index):retrives an element at the specified index
+	remove(index):removes the element at the specified index
+]	size():returns the size of the list
+ex:
+package javaprogramming;
+
+import java.util.ArrayList;
+
+public class Arraylist {
+
+public static void main(String[] args){
+ArrayList<Integer> number=new ArrayList<>();
+number.add(10);
+number.add(20);
+number.add(30);
+System.out.println("given arraylist:"+number);
+System.out.println("size of arraylist:"+number.size());
+System.out.println("remove element:"+number.remove(1));
+System.out.println("getting element:"+number.get(1));
+		}
+
+	}
